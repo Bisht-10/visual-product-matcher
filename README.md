@@ -56,30 +56,6 @@ State & Hooks	React Hooks + Custom Hook (useModelLoader)
 Deployment	Vercel / Netlify
 Data	JSON or static asset-based product dataset
 
-🏗️ Project Structure
-visual-product-matcher/
-│
-├── src/
-│   ├── components/
-│   │   ├── ImageUploader.tsx      # Handles file and URL uploads
-│   │   ├── MatchControls.tsx      # Filtering and similarity controls
-│   │   ├── ProductGrid.tsx        # Displays product results
-│   │
-│   ├── hooks/
-│   │   └── useModelLoader.ts      # Loads similarity model logic
-│   │
-│   ├── types/
-│   │   └── types.ts               # Type definitions
-│   │
-│   ├── App.tsx                    # Main app layout
-│   ├── main.tsx                   # Entry point
-│   └── index.css                  # Tailwind + global styles
-│
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-└── README.md
-
 ⚙️ Setup and Installation
 1️⃣ Clone the Repository
 git clone https://github.com/Bisht-10/visual-product-matcher.git
